@@ -6,7 +6,7 @@ STM32WB09KE BLE P2P server that reads 60 Modbus RTU registers from an EPC5110D e
 ## Long Description
 This project builds on ST’s `BLE_p2pServer` example for the STM32WB series, integrating Modbus RTU communication to an **EPC5110D** three-phase panel-mount energy meter.  
 The STM32 communicates with the meter through an **RS-485 to TTL converter**, retrieving a block of **60 consecutive Modbus holding registers** in a single request.  
-Instead of parsing or scaling the data on the MCU, the firmware transmits the **raw 16-bit register values (in hex)** via BLE notifications.  
+The firmware transmits the **raw 16-bit register values (in hex)** via BLE notifications.  
 
 Parsing into floating-point engineering values is left to the BLE client application, which can use the provided **Modbus register map** for decoding.
 
