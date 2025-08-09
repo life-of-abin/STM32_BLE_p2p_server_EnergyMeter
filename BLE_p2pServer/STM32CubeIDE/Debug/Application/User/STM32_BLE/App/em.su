@@ -1,0 +1,4 @@
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em.c:163:30:EM_EventHandler	64	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em.c:323:6:EM_Init	24	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em.c:370:12:EM_UpdateValue	24	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em.c:405:12:EM_NotifyValue	48	static

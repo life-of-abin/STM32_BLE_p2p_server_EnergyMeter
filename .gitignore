@@ -1,0 +1,37 @@
+ 
+# Keep important STM32CubeIDE/Eclipse project files
+!.project
+!.cproject
+!.ioc
+
+# Ignore build and output folders
+/Debug/
+/Release/
+/build/
+/.build
+
+# Ignore Eclipse/CubeIDE workspace settings
+.settings/
+
+# Ignore temporary and backup files
+*.launch
+*.tmp
+*.bak
+*.swp
+*.swo
+*.d
+*.o
+*.lst
+*.map
+*.elf
+*.bin
+*.hex
+*.list
+*.dep
+
+# Ignore CubeMX generated backups
+*.ioc-backup
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db

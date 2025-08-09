@@ -1,0 +1,5 @@
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/Projects/Common/BLE/Modules/Flash/flash_manager.c:110:17:FM_Write	7
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/Projects/Common/BLE/Modules/Flash/flash_manager.c:150:17:FM_Erase	5
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/Projects/Common/BLE/Modules/Flash/flash_manager.c:186:6:FM_BackgroundProcess	23
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/Projects/Common/BLE/Modules/Flash/flash_manager.c:307:24:FM_CheckFlashManagerState	9
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/Projects/Common/BLE/Modules/Flash/flash_manager.c:384:13:FM_ProcessRequest	1

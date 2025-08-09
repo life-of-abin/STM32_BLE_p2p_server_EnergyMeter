@@ -1,0 +1,7 @@
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em_app.c:93:17:Modbus_CRC16	24	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em_app.c:126:6:EM_Notification	32	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em_app.c:159:6:EM_APP_EvtRx	16	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em_app.c:177:6:EM_APP_Init	8	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em_app.c:193:13:EM_Rs_SendNotification	24	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em_app.c:209:13:modbusProcess	296	static
+C:/STM32_Projects/Modbus_requeest/BLE_p2pServer/STM32_BLE/App/em_app.c:298:13:notifyBleTask	24	static
