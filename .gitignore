@@ -24,9 +24,6 @@
 *.list
 *.dep
 
-# Ignore CubeMX generated backups
-*.ioc-backup
-
 # Ignore OS-generated files
 .DS_Store
 Thumbs.db
