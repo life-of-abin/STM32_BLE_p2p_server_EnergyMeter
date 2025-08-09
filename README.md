@@ -5,12 +5,12 @@
 ---
 
 ## 📜 Overview
-This project extends ST’s `BLE_p2pServer` example for the STM32WB series by adding **Modbus RTU** communication to an EPC5110D three-phase energy meter.
+This project builds on ST’s BLE_p2pServer example for the STM32WB series, integrating Modbus RTU communication to an **EPC5110D** three-phase panel-mount energy meter.  
+The STM32 communicates with the meter through an **RS-485 to TTL converter**, retrieving a block of **60 consecutive Modbus holding registers** in a single request.  
 
-The STM32 communicates through an **RS-485 to TTL converter**, fetching **60 consecutive Modbus holding registers** in one request.  
-Instead of parsing values on the MCU, the firmware sends **raw 16-bit hex values** as BLE notifications.  
+The firmware transmits the **raw 16-bit register values (in hex)** via BLE notifications.  
 
-Data decoding (converting registers into floats like Watts, VAR, Voltage, etc.) happens **on the BLE client side**.
+Parsing into floating-point engineering values is left to the BLE client application, which can use the provided **Modbus register map** for decoding.
 
 ---
 
@@ -19,13 +19,13 @@ Data decoding (converting registers into floats like Watts, VAR, Voltage, etc.) 
 - 🔌 **RS-485 to TTL** Modbus RTU interface to EPC5110D  
 - 📦 Fetch **60 consecutive Modbus registers** in a single request  
 - 📤 Send **unparsed raw register values in hex** via BLE notifications  
-- ⚡ Full energy meter data set: Watts, VAR, PF, VA, Voltage (VLL/VLN), Current, Frequency, Energy  
+- ⚡ Full energy meter data set: Watts, VAR, PF, VA, Voltage (VLL/VLN), Current, Frequency, Energy , etc...
 - 📝 **BLE write** command triggers a Modbus read cycle  
 - 🖥 Designed for **external parsing** by mobile/PC applications  
 
 ---
 
-## 🗂 Example Register Mapping (Partial)
+## 🗂 Example Register Mapping 
 
 | Index | Address | Type  | Parameter         |
 |-------|---------|-------|-------------------|
